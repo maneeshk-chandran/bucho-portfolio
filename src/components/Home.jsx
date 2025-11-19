@@ -28,9 +28,18 @@ deliver exceptional dining experiences. Checkout my resume for more
           href="public\Modern Minimalist CV Resume.pdf (1).pdf"
           target="_blank"
           rel="noopener noreferrer"
-          className="animation active "
+          className="button "
         >
-          Download My CV
+          DOWNLOAD MY CV
+        </a>
+        <br />
+        <a
+          href="public\Untitled design.pdf.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="button "
+        >
+          MY QUALIFICATIONS
         </a>
       </div>
       <div className="avatar">
