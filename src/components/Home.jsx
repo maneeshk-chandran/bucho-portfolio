@@ -9,20 +9,23 @@ function Home() {
     <section ref={scrollTab} className="home">
       <div className="content">
         <div className="name">
-          I'm <span>VIGHNESH KUMAR</span>
+           <span>I'm VIPIN DEV</span>
         </div>
         <div className="des">
           {/* 30 */}
-          Developer with a strong foundation in web development through academic
-          projects and self-driven learning. Proficient in building dynamic and
-          responsive web applications using MongoDB, Express.js, React, and
-          Node.js. Eager to apply my technical skills and creativity to develop
-          innovative solutions. Strong problem-solving abilities and a passion
-          for continuous learning in the field of software development.
+          a passionate Continental chef with
+a remarkable 12-year tenure in United Arab Emirates and 4-year tenure in the United Kingdom in the culinary industry,
+specializing in an array of cuisines. My culinary
+journey has been anchored in the realms of a la carte
+and banquets, where I craft tailored, individual dishes
+and costings made to order, providing a personalised
+dining experience. I thrive in a fast-paced kitchen
+environment and love collaborating with a team to
+deliver exceptional dining experiences. Checkout my resume for more
         </div>
 
         <a
-          href="VIGHNESH KUMAR T  MERN (1).pdf"
+          href="public\Modern Minimalist CV Resume.pdf (1).pdf"
           target="_blank"
           rel="noopener noreferrer"
           className="animation active "
@@ -33,15 +36,15 @@ function Home() {
       <div className="avatar">
         <div className="card">
           <img
-            src="/cb5ec0b3-7286-4230-a57e-b2bcaca808c6.jpg"
+            src="public\WhatsApp Image 2025-11-13 at 16.57.52_1caf4634.jpg"
             alt="Profile"
             onError={(e) => (e.target.style.display = "none")}
           />
           <div className="info">
-            <div>MERNSTACK DEV</div>
+            <div>HEAD CHEF</div>
             <div>INDIAN</div>
-            <div>26/05</div>
-            <div>Male</div>
+            {/* <div>26/05</div> */}
+            {/* <div>Male</div> */}
           </div>
         </div>
       </div>

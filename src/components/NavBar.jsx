@@ -20,7 +20,7 @@ const NavBar = ({ activeTab }) => {
     <header>
       <div className="logo">
         {/* <img src="/logo.png" alt=""/>  */}
-        VIGHNESH KUMAR
+        VIPIN DEV
       </div>
       <nav className={statusNav}>
         {linkNav.map((value) => (

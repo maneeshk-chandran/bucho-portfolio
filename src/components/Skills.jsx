@@ -16,33 +16,43 @@ function Skills() {
   CustomHook(scrollTab, divs);
   const [listSkills] = useState([
     {
-      name: "HTML",
-      des: "As a MERN stack developer, my HTML skills are focused on building clean, semantic, and accessible web pages that integrate seamlessly with React for dynamic content rendering. I am proficient in structuring HTML to ensure optimal SEO, accessibility (A11Y), and responsiveness across devices. I can efficiently use HTML5 elements like forms, inputs, and multimedia tags.",
+      name: "PLATING DESIGN",
+      des: "Skilled in creative and visually appealing food presentation that enhances the dining experience. Proficient in balancing colors, textures, and portions to create elegant and appetizing plates. Focused on delivering dishes that not only taste exceptional but also reflect artistic precision and modern culinary trends.",
       icon: faHtml5,
     },
     {
-      name: "CSS",
-      des: "As a MERN stack developer, my CSS skills are focused on creating responsive, visually appealing, and user-friendly interfaces. I am proficient in writing clean, modular CSS using both traditional styles and modern methodologies like Flexbox and CSS Grid for responsive layouts. ",
+      name: "MENU PLANNING & COSTING",
+      des: " Experienced in developing seasonal and balanced menus that align with customer preferences and restaurant concepts. Skilled in ingredient selection, portion control, and cost management to maximize profitability without compromising quality. Adept at analyzing food trends and maintaining consistency across all dishes.",
       icon: faCss3,
     },
     {
-      name: "Javascript",
-      des: "As a MERN stack developer, my JavaScript skills are the foundation of my ability to build dynamic and interactive web applications. I am proficient in both front-end and back-end JavaScript, using ES6+ features such as arrow functions, async/await, destructuring, and modules to write clean, efficient code. On the front-end, I leverage React to build component-based, state-driven UIs, while on the back-end, I work with Node.js and Express to create RESTful APIs and handle server-side logic.",
+      name: "KITCHEN BUDGET MANAGMENT",
+      des: "Proficient in managing kitchen budgets through effective cost control, inventory management, and supplier negotiation. Skilled in optimizing resources, minimizing waste, and maintaining high-quality standards while ensuring profitability and operational efficiency.",
       icon: faJs,
     },
     {
-      name: "ReactJs",
-      des: "As a MERN stack developer, my React skills are focused on building dynamic, high-performance user interfaces. I am proficient in creating reusable components, managing state with hooks like useState and useEffect, and handling routing with React Router for seamless navigation. I have experience with state management libraries like Redux for complex application states and context APIs for simpler use cases.",
+      name: "INVENTORY MANAGMENT",
+      des: "Experienced in monitoring and maintaining optimal stock levels to ensure smooth kitchen operations. Skilled in tracking supplies, reducing waste, and coordinating with vendors to maintain freshness, quality, and cost efficiency.",
       icon: faReact,
     },
     {
-      name: "NodeJs",
-      des: "As a MERN stack developer, my Node.js skills are centered around building efficient, scalable back-end services and APIs. I am proficient in using Node.js for server-side development, handling asynchronous operations, and managing application logic. With Express.js, I create RESTful APIs that interact with databases (MongoDB) and handle HTTP requests, routing, and middleware.",
+      name: "UPHOLDING FOOD SAFETY STANDARDS",
+      des: "Committed to upholding the highest food safety and sanitation standards in all kitchen operations. Skilled in implementing HACCP guidelines, maintaining proper food storage, and ensuring compliance with health and hygiene regulations to deliver safe and high-quality dishes.",
       icon: faNode,
     },
     {
-      name: "Bootstrap",
-      des: "As a MERN stack developer, my Bootstrap skills enable me to quickly build responsive, mobile-first web applications with a consistent, professional design. I am proficient in using Bootstrap’s grid system, pre-built components, and utilities to create layouts that adapt seamlessly across devices.",
+      name: "CULINARY CREATIVITY",
+      des: "Highly skilled in developing innovative and visually appealing dishes that blend traditional continental techniques with modern trends. Passionate about experimenting with flavors, textures, and presentation to create memorable dining experiences that reflect originality and excellence.",
+      icon: faBootstrap,
+    },
+    {
+      name: "TEAM LEADERSHIP",
+      des: "Experienced in leading and motivating kitchen staff to deliver high-quality dishes efficiently. Skilled in delegating tasks, maintaining clear communication, and fostering a positive, collaborative work environment that promotes teamwork, discipline, and consistent performance.",
+      icon: faBootstrap,
+    },
+    {
+      name: "CUSTOMER FOCUS",
+      des: "Dedicated to understanding and exceeding guest expectations through exceptional food quality, presentation, and service. Skilled in tailoring dishes to customer preferences, ensuring a memorable dining experience that promotes satisfaction and loyalty.",
       icon: faBootstrap,
     },
   ]);
@@ -53,12 +63,7 @@ function Skills() {
       </div>
       <div className="des" ref={(el) => el && divs.current.push(el)}>
         {/* 20 */}
-        As a MERN stack developer, I specialize in building dynamic, full-stack
-        web applications using MongoDB, Express.js, React, and Node.js. I have
-        strong expertise in creating RESTful APIs with Node.js and Express,
-        managing data with MongoDB, and building interactive user interfaces
-        with React. I am proficient in handling front-end logic with React
-        components, state management (using hooks and Redux)
+        Highly skilled in preparing and presenting European cuisines, including French, Italian, Indian and Mediterranean dishes. Proficient in advanced cooking techniques such as grilling, roasting, sautéing, and baking. Strong expertise in flavor balancing, sauce preparation, and creative plating. Demonstrates excellent time management, menu planning, and kitchen organization, while maintaining strict hygiene and quality standards to ensure exceptional dining experiences.
       </div>
       <div className="list">
         {listSkills.map((value, key) => (
