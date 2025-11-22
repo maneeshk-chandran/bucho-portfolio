@@ -8,6 +8,16 @@ import {
   faNode,
   faBootstrap,
 } from "@fortawesome/free-brands-svg-icons";
+import {
+  faUtensils,
+  faClipboardList,
+  faMoneyBillWave,
+  faBoxes,
+  faShieldAlt,
+  faLightbulb,
+  faUsers,
+  faHeart,
+} from "@fortawesome/free-solid-svg-icons";
 import CustomHook from "./CustomHook";
 
 function Skills() {
@@ -18,42 +28,42 @@ function Skills() {
     {
       name: "PLATING DESIGN",
       des: "Skilled in creative and visually appealing food presentation that enhances the dining experience. Proficient in balancing colors, textures, and portions to create elegant and appetizing plates. Focused on delivering dishes that not only taste exceptional but also reflect artistic precision and modern culinary trends.",
-      icon: faHtml5,
+      icon: faUtensils,
     },
     {
       name: "MENU PLANNING & COSTING",
       des: " Experienced in developing seasonal and balanced menus that align with customer preferences and restaurant concepts. Skilled in ingredient selection, portion control, and cost management to maximize profitability without compromising quality. Adept at analyzing food trends and maintaining consistency across all dishes.",
-      icon: faCss3,
+      icon: faClipboardList,
     },
     {
       name: "KITCHEN BUDGET MANAGMENT",
       des: "Proficient in managing kitchen budgets through effective cost control, inventory management, and supplier negotiation. Skilled in optimizing resources, minimizing waste, and maintaining high-quality standards while ensuring profitability and operational efficiency.",
-      icon: faJs,
+      icon: faMoneyBillWave,
     },
     {
       name: "INVENTORY MANAGMENT",
       des: "Experienced in monitoring and maintaining optimal stock levels to ensure smooth kitchen operations. Skilled in tracking supplies, reducing waste, and coordinating with vendors to maintain freshness, quality, and cost efficiency.",
-      icon: faReact,
+      icon: faBoxes,
     },
     {
       name: "UPHOLDING FOOD SAFETY STANDARDS",
       des: "Committed to upholding the highest food safety and sanitation standards in all kitchen operations. Skilled in implementing HACCP guidelines, maintaining proper food storage, and ensuring compliance with health and hygiene regulations to deliver safe and high-quality dishes.",
-      icon: faNode,
+      icon: faShieldAlt,
     },
     {
       name: "CULINARY CREATIVITY",
       des: "Highly skilled in developing innovative and visually appealing dishes that blend traditional continental techniques with modern trends. Passionate about experimenting with flavors, textures, and presentation to create memorable dining experiences that reflect originality and excellence.",
-      icon: faBootstrap,
+      icon: faLightbulb,
     },
     {
       name: "TEAM LEADERSHIP",
       des: "Experienced in leading and motivating kitchen staff to deliver high-quality dishes efficiently. Skilled in delegating tasks, maintaining clear communication, and fostering a positive, collaborative work environment that promotes teamwork, discipline, and consistent performance.",
-      icon: faBootstrap,
+      icon: faUsers,
     },
     {
       name: "CUSTOMER FOCUS",
       des: "Dedicated to understanding and exceeding guest expectations through exceptional food quality, presentation, and service. Skilled in tailoring dishes to customer preferences, ensuring a memorable dining experience that promotes satisfaction and loyalty.",
-      icon: faBootstrap,
+      icon: faHeart,
     },
   ]);
   return (

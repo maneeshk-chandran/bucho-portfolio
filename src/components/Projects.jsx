@@ -184,8 +184,15 @@ function Projects() {
       </section> */}
 
       {/* -------------------- GLASSMORPHIC 3D SLIDESHOW -------------------- */}
+      <div className="carousel-header">
+        <h2 className="carousel-title">Gallery Showcase</h2>
+        <p className="carousel-description">
+          Explore our culinary journey through these captivating images showcasing the essence of BUCHO's smoked food experience.
+        </p>
+      </div>
       <section className="glass-3d-container">
         <div className="glass-3d-wrapper">
+          
           <div
             className="glass-3d"
             style={{
@@ -197,7 +204,7 @@ function Projects() {
                 key={i}
                 className="glass-slide"
                 style={{
-                  backgroundImage: `url(${img})`,
+                  backgroundImage: `url(${encodeURI(img)})`,
                   transform: `rotateY(${i * 72}deg) translateZ(250px)`,
                 }}
               />
