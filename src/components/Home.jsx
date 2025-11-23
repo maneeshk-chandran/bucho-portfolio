@@ -25,7 +25,7 @@ deliver exceptional dining experiences. Checkout my resume for more
         </div>
 
         <a
-          href="public\Modern Minimalist CV Resume.pdf (1).pdf"
+          href="/Modern Minimalist CV Resume.pdf (1).pdf"
           target="_blank"
           rel="noopener noreferrer"
           className="button "
@@ -34,7 +34,7 @@ deliver exceptional dining experiences. Checkout my resume for more
         </a>
         <br />
         <a
-          href="public\Untitled design.pdf.pdf"
+          href="/Untitled design.pdf.pdf"
           target="_blank"
           rel="noopener noreferrer"
           className="button "
@@ -45,7 +45,7 @@ deliver exceptional dining experiences. Checkout my resume for more
       <div className="avatar">
         <div className="card">
           <img
-            src="public\WhatsApp Image 2025-11-13 at 16.57.52_1caf4634.jpg"
+            src="/WhatsApp Image 2025-11-13 at 16.57.52_1caf4634.jpg"
             alt="Profile"
             onError={(e) => (e.target.style.display = "none")}
           />
