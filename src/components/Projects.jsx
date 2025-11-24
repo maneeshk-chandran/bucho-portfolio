@@ -13,7 +13,7 @@ function Projects() {
       name: "THE FIRST SPARK - BUCHO",
       des: "BUCHO was born from a chef’s passion and a shared dream. As a Continental Head Chef trained and experienced in the United Kingdom, I returned to my motherland, Kerala, with a desire to bring something unique to our food culture. Together with four partners I met by chance but bonded with through vision, we created BUCHO — a smoked food brand that blends global culinary techniques with Kerala’s rich flavours. The first spark of BUCHO came from our belief that food should be bold, soulful, and unforgettable. Every dish we craft carries the essence of international expertise, the freshness of local ingredients, and the warmth of the land we call home. BUCHO is not just a company; it is the beginning of a new smoked food experience from Kerala to the world.",
       mission: "Our own Food Company ",
-      images: "/WhatsApp Image 2025-11-16 at 3.24.06 AM.jpeg",
+      images: "/WhatsApp Image 2025-11-25 at 2.16.18 AM.jpeg",
     },
     {
       name: "OUR SOCIAL REACH",
@@ -37,16 +37,17 @@ function Projects() {
       name: "ESSENTIALS NEEDED FOR THE CONCEPT",
       des: "A Perfect space for indoor as well as for a outdoor cafe , which includes smoker chambers , A good spacious kitchen with needed machines and equipments , Experienced chefs , A good interactive service team , A good inventory system etc",
       mission: " ",
-      
       images: "/WhatsApp Image 2025-11-16 at 1.47.09 AM.jpeg",
     },
   ]);
   const slideshowImages = [
-    "/WhatsApp Image 2025-11-16 at 3.24.06 AM.jpeg",
+    // "/WhatsApp Image 2025-11-16 at 1.47.07 AM (1).jpeg",
     "/WhatsApp Image 2025-11-16 at 3.27.33 AM.jpeg",
     "/WhatsApp Image 2025-11-16 at 3.37.10 AM.jpeg",
     "/WhatsApp Image 2025-11-16 at 11.53.56 PM.jpeg",
     "/WhatsApp Image 2025-11-16 at 1.47.09 AM.jpeg",
+    // "/WhatsApp Image 2025-11-16 at 1.47.05 AM.jpeg",
+   " /WhatsApp Image 2025-11-25 at 2.16.17 AM.jpeg",
   ];
 
   const [index, setIndex] = useState(0);
@@ -198,7 +199,7 @@ function Projects() {
 
       {/* -------------------- SIMPLE IMAGE SLIDESHOW -------------------- */}
       <div className="carousel-header">
-        <h2 className="carousel-title">Gallery Showcase</h2>
+        <h2 className="carousel-title">GALLERY SHOWCASE</h2>
         <p className="carousel-description">
           Explore our culinary journey through these captivating images showcasing the essence of BUCHO's smoked food experience.
         </p>
