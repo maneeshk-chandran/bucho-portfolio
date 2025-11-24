@@ -7,7 +7,7 @@ import Contacts from "./components/Contacts";
 
 function App() {
   return (
-    <main>
+    <main className="app-container">
       <NavBar />
       <Home />
       <Skills />
