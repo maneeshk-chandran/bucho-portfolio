@@ -14,7 +14,7 @@ function Home() {
         <div className="des">
           {/* 30 */}
           a passionate Continental chef with
-a remarkable 12-year tenure in United Arab Emirates and 4-year tenure in the United Kingdom in the culinary industry,
+a remarkable 16 years tenure in United Arab Emirates and in the United Kingdom combined in the culinary industry,
 specializing in an array of cuisines. My culinary
 journey has been anchored in the realms of a la carte
 and banquets, where I craft tailored, individual dishes
@@ -49,12 +49,12 @@ deliver exceptional dining experiences. Checkout my resume for more
             alt="Profile"
             onError={(e) => (e.target.style.display = "none")}
           />
-          <div className="info">
+          {/* <div className="info">
             <div>HEAD CHEF</div>
-            <div>INDIAN</div>
+            <div>INDIAN</div> */}
             {/* <div>26/05</div> */}
             {/* <div>Male</div> */}
-          </div>
+          {/* </div> */}
         </div>
       </div>
     </section>

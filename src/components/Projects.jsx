@@ -6,6 +6,7 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import { motion, AnimatePresence } from "framer-motion";
 import CustomHook from "./CustomHook";
+import { div } from "framer-motion/client";
 
 function Projects() {
   const [listProjects] = useState([
@@ -13,23 +14,23 @@ function Projects() {
       name: "THE FIRST SPARK - BUCHO",
       des: "BUCHO was born from a chef’s passion and a shared dream. As a Continental Head Chef trained and experienced in the United Kingdom, I returned to my motherland, Kerala, with a desire to bring something unique to our food culture. Together with four partners I met by chance but bonded with through vision, we created BUCHO — a smoked food brand that blends global culinary techniques with Kerala’s rich flavours. The first spark of BUCHO came from our belief that food should be bold, soulful, and unforgettable. Every dish we craft carries the essence of international expertise, the freshness of local ingredients, and the warmth of the land we call home. BUCHO is not just a company; it is the beginning of a new smoked food experience from Kerala to the world.",
       mission: "Our own Food Company ",
-      images: "/WhatsApp Image 2025-11-25 at 2.16.18 AM.jpeg",
+      images: "/WhatsApp Image 2025-11-16 at 3.27.33 AM.jpeg",
     },
     {
       name: "OUR SOCIAL REACH",
       des: " At BUCHO, our mission has always been to take Kerala’s smoked food culture beyond borders and introduce it to a wider audience. Through consistent quality, innovative dishes, and authentic storytelling, we have built a growing community of food lovers across the country. Our social platforms have become a space where people discover the art of smoked cuisine, learn about our process, and connect with our journey. From engaging videos to behind-the-scenes kitchen moments and customer experiences, BUCHO has successfully sparked a nationwide interest in smoked continental flavours. Today, our reach extends far beyond our hometown—spreading awareness, inspiring curiosity, and bringing a new culinary trend into the hearts of food enthusiasts across India. .",
       mission: "To Make Our Food Quality Spread Across The World",
-      images: "/WhatsApp Image 2025-11-16 at 3.27.33 AM.jpeg",
+      images: "/WhatsApp Image 2025-11-25 at 2.16.18 AM.jpeg",
     },
     {
-      name: "OUR VISION",
-      des: "Our vision at BUCHO is to redefine the smoked food experience and build a culinary movement that starts in Kerala and reaches the world. We aim to innovate continuously—introducing new techniques, bold flavours, and premium smoked dishes that set new standards in the food industry. As we grow, we see BUCHO expanding into dedicated smokehouses, nationwide delivery, and exclusive dining concepts that celebrate the authenticity of our craft. Our future goal is to inspire a new generation of chefs, educate customers about the beauty of smoked cuisine, and establish BUCHO as a trusted, iconic brand in global continental cooking. With passion as our fuel and quality as our promise, we are shaping a future where BUCHO becomes a name known for creativity, excellence, and unforgettable flavour.",
+      name: "MY VISION",
+      des: "My vision is to celebrate and revive the timeless art of traditional smoking, creating a dining experience that honours heritage while embracing innovation. I aim to elevate smoked cuisine by blending age-old methods with modern culinary creativity—crafting bold flavours, authentic dishes, and premium preparations that set new standards in the food industry.As the smokehouse grows, I envision expanding into dedicated smoking facilities, curated dining spaces, and wider delivery services that bring the essence of true traditional flavours to more people. I hope to inspire future chefs, educate guests about the beauty and depth of traditional smoking techniques, and establish my smokehouse as a trusted, iconic name in rustic and refined culinary craftsmanship.With passion guiding every dish and quality at the heart of every experience, I am shaping a future where my smokehouse and restaurant stand as symbols of authenticity, artistry, and unforgettable flavour.",
       mission: "Expanding Our Ventures",
-      images: "/WhatsApp Image 2025-11-16 at 3.37.10 AM.jpeg",
+      images: "/c2bd900d-8baf-40d5-a5ff-8ac556565267.jpeg",
     },
     {
       name: "CUSTOMER FOCUS",
-      des: "At BUCHO, our customers are at the heart of everything we create. We believe that great food begins with understanding the people we serve—their tastes, their expectations, and their desire for quality. Every dish we craft is designed to deliver a memorable experience, combining authentic flavours with consistent excellence. We listen closely to feedback, adapt our menus to evolving preferences, and ensure that every interaction reflects warmth, honesty, and professionalism. Our goal is simple: to make every customer feel valued and to serve smoked food that inspires trust, satisfaction, and a lasting connection with BUCHO.",
+      des: "My customers are at the heart of everything I create. I believe that great food begins with truly understanding the people I serve—their tastes, their expectations, and their desire for quality. Every dish I craft is designed to deliver a memorable experience, combining authentic flavours with consistent excellence. I listen closely to feedback, adapt my menus to evolving preferences, and ensure that every interaction reflects warmth, honesty, and professionalism. My goal is simple: to make every customer feel valued and to serve smoked food that inspires trust, satisfaction, and a lasting connection.",
       mission: "People's Attention",
       images: "/WhatsApp Image 2025-11-16 at 11.53.56 PM.jpeg",
     },
@@ -38,8 +39,14 @@ function Projects() {
       des: "A Perfect space for indoor as well as for a outdoor cafe , which includes smoker chambers , A good spacious kitchen with needed machines and equipments , Experienced chefs , A good interactive service team , A good inventory system etc",
       mission: " ",
       images: "/WhatsApp Image 2025-11-16 at 1.47.09 AM.jpeg",
+      
     },
+   
+   
   ]);
+  
+ 
+  
   const slideshowImages = [
     // "/WhatsApp Image 2025-11-16 at 1.47.07 AM (1).jpeg",
     "/WhatsApp Image 2025-11-16 at 3.27.33 AM.jpeg",
@@ -162,6 +169,17 @@ function Projects() {
                   <div className="des">{value.mission}</div>
                 </div>
               </div>
+              {key === listProjects.length - 1 && (
+                <a
+                  href="/lay out - Copy (1).pdf"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="button"
+                  style={{ marginTop: "20px", display: "inline-block" }}
+                >
+                  LAYOUT FOR THE CONCEPT
+                </a>
+              )}
             </div>
           </div>
         ))}
@@ -201,7 +219,7 @@ function Projects() {
       <div className="carousel-header">
         <h2 className="carousel-title">GALLERY SHOWCASE</h2>
         <p className="carousel-description">
-          Explore our culinary journey through these captivating images showcasing the essence of BUCHO's smoked food experience.
+          Explore our culinary journey through these captivating images showcasing the essence of My Smoked food experience.
         </p>
       </div>
       <section className="simple-slideshow-container">

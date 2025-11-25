@@ -771,8 +771,8 @@ a.button {
 
 /* Hover effect */
 a.button:hover {
-  background-color: rgb(175, 42, 42);    /* highlight color */
-  color: rgb(227, 5, 5);               /* text color on hover */
+  background-color: rgb(114, 17, 179);    /* highlight color */
+  color: rgb(255, 255, 255);               /* text color on hover */
   transform: scale(1.05);     /* slight zoom */
 }
 
