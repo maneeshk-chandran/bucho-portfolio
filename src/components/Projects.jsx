@@ -55,6 +55,10 @@ function Projects() {
     "/WhatsApp Image 2025-11-16 at 1.47.09 AM.jpeg",
     // "/WhatsApp Image 2025-11-16 at 1.47.05 AM.jpeg",
    " /WhatsApp Image 2025-11-25 at 2.16.17 AM.jpeg",
+   "/Horn-Barbecue-Smoked-Brisket-FT-RECIPE0422-976d46c2d4a94bcd97b6501491ac0392.jpg",
+   "/how-to-smoke-meat-with-pecan-wood-1705152547.jpg",
+   "/Tr-tip-1024x737 (1).webp",
+
   ];
 
   const [index, setIndex] = useState(0);
